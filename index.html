@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Todo List</title>
+		<link rel="stylesheet" type="text/css" href="css/todolist.css"/>
+		<script src="js/angular.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/todolist.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="main" ng-app='myApp'>
+			<div id="todoList" ng-controller='myCtrl'>
+				<h2>{{name}}</h2>
+				<section>
+					<input ng-model="todo" value="" ng-blur='add()' class="input" type="text" value="" placeholder="What needs to br done?" />
+				</section>
+				<div class="div">
+					<span>{{total}}</span>
+					<span class="span" ng-click="all()">ALL</span>
+					<span ng-click="active()">Active</span>
+					<span ng-click="completed($index)">Completed</span>
+					<span ng-click="clear()">clear completed</span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

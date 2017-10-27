@@ -1,0 +1,81 @@
+@import url("common.css");
+
+html,body{
+	width: 100%;
+	height: 100%;
+	background: #0e0e0e;
+}
+
+#main{
+	position: relative;
+	width: 80%;
+	height: 100%;
+	background: #f7f7f7;
+	margin: 0 auto;
+}
+
+#todoList{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 60%;
+	height: 100%;
+	margin: auto;
+	background: #f2f2f2;
+	text-align: center;
+}
+
+h2{
+	padding: 20px 0;
+	color: #ead7d7;
+}
+
+section{
+	width: 60%;
+	height: auto;
+	background: #FFF;
+	margin: 0 auto;
+	border: 1px solid #ddd;
+	border-bottom: none;
+}
+
+.input{
+	width: 100%;
+	height: 40px;
+	padding: 10px 20px;
+	font-size: 20px;
+	color: #aaa;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ddd;
+	outline: none;
+	text-align: left;
+	background: #fff;
+	cursor: pointer;
+	color: #333;
+}
+::-webkit-input-placeholder{
+	color: #ddd;
+}
+
+.div{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 60%;
+	height: auto;
+	background: #fff;
+	margin: 0 auto;
+	border: 1px solid #ddd;
+	padding: 4px;
+	box-sizing: border-box;
+	font-size: 12px;
+	color: #888;
+	display: none;
+}
+
+.div span{
+	cursor: pointer;
+	border-radius: 5px;
+}
