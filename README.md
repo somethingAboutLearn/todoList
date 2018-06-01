@@ -1,6 +1,6 @@
 # todoList
 日更计划
-* URL:  https://university-notes.github.io/todoList/
+* URL:  https://somethingaboutlearn.github.io/todoList/
 * 使用：
 	* 输入计划
 	* 完成待办事项：双击待办事项
